@@ -12,23 +12,23 @@
  }
   
 .nav-link {
-    color: #9879ae !important;
+    color: black !important;
     padding: 1rem 3rem !important;
-    font-size: 1.5rem !important;
+    font-size: 1.2rem !important;
     font-family: 'Montserrat';
     font-weight: 500 !important;
 }
 
 .nav-link:hover {
-    color: hsl(275, 48%, 88%) !important;
-    font-size: 1.6rem !important;
+    color: #63aebb !important;
+    font-size: 1.3rem !important;
 }
 
 .navbar-brand {
     padding-left: 1rem;
     font-family: 'Leckerli One', cursive;
     font-size: 2.5rem !important;
-    color: hsl(275, 48%, 88%) !important;
+    color: #63aebb !important;
 
 }
 
@@ -39,11 +39,10 @@
  }
  
  #principal{
-    background-image: url("../img/fondo.png");
-    background-size: cover;
-    background-position: center; 
+    padding: 0% 10%;
     margin: 0;
     color: white !important;
+    background-color: rgb(255, 254, 254);
  }
 
  .abs-center {
@@ -64,13 +63,14 @@
     position: relative;
     top: -220px;
     margin-top: 40px !important;
+    padding-top:40%
 }
 
 .main {
     font-family: 'Noto Serif JP', sans-serif;
     font-weight: 900;
     font-size: 70px;
-    color: white;
+    color: black;
     /*efect down to up*/
     right: 0px;
     position: relative;
@@ -83,7 +83,7 @@
     font-size: 25px;
     font-weight: 300;
     width: 45rem !important;
-    color: white;
+    color: black;
     /*efect down to up*/
     right: 0px;
     position: relative;
@@ -92,14 +92,61 @@
 }
   
 .img-princ {
-    width: 60%;   
-}
-
-.row-pic {
-    margin-top: 10rem !important;
+    width: 50%;   
 }
 
 #fondo-puntos {
     position: absolute;
     width: 50%;
+}
+
+/* SECTION ABOUT */
+#about {
+    padding: 7% 20%;
+    background-image: url("../img/fondo2.png");
+    color: white !important;
+    position: relative;
+}
+
+.text-about {
+    text-align: center;
+}
+
+.txt-main {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+}
+
+.habilidades {
+    border: 1px solid rgb(199, 199, 199);
+    border-radius: 10px;
+    margin: 5%;
+    background-color: white;
+}
+
+.hab {
+    height: 100% !important; 
+    padding: 3% 4% !important;
+    color: black;
+    font-family: 'Raleway', sans-serif;
+}
+
+.hab-1, .hab-2 {
+    border-right: 1px solid rgb(199, 199, 199);
+}
+
+.row-hab {
+    margin: 0px !important;
+    text-align: center;
+}
+
+.title-hab {
+    font-size: 150%;
+    font-weight: 700 !important;
+    margin-top: 5%;
+}
+
+.title-lang {
+    color: #E96479;
+    font-weight: 700;
 }
