@@ -12,7 +12,7 @@
  }
   
 .nav-link {
-    color: black !important;
+    color: white !important;
     padding: 1rem 3rem !important;
     font-size: 1.2rem !important;
     font-family: 'Montserrat';
@@ -20,7 +20,7 @@
 }
 
 .nav-link:hover {
-    color: #63aebb !important;
+    color: #162f72 !important;
     font-size: 1.3rem !important;
 }
 
@@ -33,49 +33,51 @@
 }
 
  /*SECCION PRINCIPAL*/
- 
- .container {
-    max-width: 1800px !important;
- }
- 
+  
  #principal{
-    padding: 0% 10%;
+    padding: 0% 5%;
     margin: 0;
-    color: white !important;
-    background-color: rgb(255, 254, 254);
- }
+    background-image: url("../img/fondo.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+}
+
+.principal-text2 {
+    height: 100% !important;
+}
 
  .abs-center {
     display: flex;
     align-items: center;
     justify-content: center;
-    min-height: 100vh;
 }
 
  .name{
     font-family: 'M PLUS 1p', sans-serif;
     font-weight: 600;
     font-size: large;
-    color: #E96479;
+    color: #0d218f;
     margin-bottom: 30rem;
     /*efect up to down*/
     right: 0px;
     position: relative;
     top: -220px;
-    margin-top: 40px !important;
-    padding-top:40%
+    margin-top: 0px !important;
+    padding-top:50%
 }
 
 .main {
     font-family: 'Noto Serif JP', sans-serif;
     font-weight: 900;
     font-size: 70px;
-    color: black;
+    color: white;
+    padding-bottom: 1.5rem !important;
     /*efect down to up*/
     right: 0px;
     position: relative;
     bottom: -10px;
-    margin-bottom: 40px !important;
+    margin-bottom: 0px !important;
 }
 
 .description {
@@ -83,7 +85,7 @@
     font-size: 25px;
     font-weight: 300;
     width: 45rem !important;
-    color: black;
+    color: white;
     /*efect down to up*/
     right: 0px;
     position: relative;
@@ -92,7 +94,7 @@
 }
   
 .img-princ {
-    width: 50%;   
+    width: 25rem;   
 }
 
 #fondo-puntos {
@@ -104,6 +106,9 @@
 #about {
     padding: 7% 20%;
     background-image: url("../img/fondo2.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
     color: white !important;
     position: relative;
 }
@@ -149,4 +154,39 @@
 .title-lang {
     color: #E96479;
     font-weight: 700;
+}
+
+@media (max-width: 1250px) {
+    #principal{
+        background-image: none;
+        background-color: #4AB3C4;
+    }
+    .navbar-brand {
+        color: white !important;
+    
+    }  
+    .principal-text2 {
+        padding-left: 5rem !important;
+    }
+
+}
+
+@media (max-width: 995px) {
+    .principal-text1 {
+        order: 2;
+        height: 0px;
+    }
+    .principal-text2 {
+        order: 1;
+    }
+    .img-princ {
+        position: relative;  
+        margin: 2rem 10%;
+    }
+    .name{
+        /*efect up to down*/
+        margin-top: 0px !important;
+        padding-top:20%
+    }
+    
 }
