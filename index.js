@@ -1,4 +1,7 @@
 
+gsap.from('.img-princ',{opacity: 0, duration: 1, x: -100})
+gsap.from('.stagger',{opacity: 0, duration: 1, y: -50, stagger: 0.6})
+
 var img = $('.img-princ');
 img.attr('src', 'img/compu.gif');
 setTimeout(function() {
@@ -6,13 +9,7 @@ setTimeout(function() {
 }, 3000);
 
 
-$(".name").animate({ top: "20px" }, 1000);
-
-$("h1").animate({ bottom: "450px" }, 1000);
-$(".description").animate({ bottom: "450px" }, 1000);
-
 if ($(window).width() <= 995) {
-  $(".img-princ").animate({ bottom: "450px" }, 1000);
 }
 
 $('.navbar-brand').hover(
