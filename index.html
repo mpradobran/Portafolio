@@ -1,108 +1,100 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="icon" href="img/dev.ico">
-    <title>Michelle Prado</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="img/logo.ico">
+  <title>Michelle Prado</title>
 
-    <!-- GOOGLE FONTS -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Leckerli+One&family=Montserrat:wght@400;600;700;900&family=Ubuntu:wght@300&family=M+PLUS+1p:wght@100;400;900&family=Noto+Serif+JP:wght@900&family=Raleway:wght@100;300&display=swap" rel="stylesheet">    
+  <!-- GOOGLE FONTS -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Leckerli+One&family=Montserrat:wght@400;600;700;900&family=Ubuntu:wght@300&family=M+PLUS+1p:wght@100;400;900&family=Noto+Serif+JP:wght@900&family=Raleway:wght@100;300&display=swap"
+    rel="stylesheet">
 
-    <!-- Font Awesome -->
-    <script src="https://kit.fontawesome.com/ead5178642.js" crossorigin="anonymous"></script>
+  <!-- FONT IG -->
+  <link href='fonts/FontsFree-Net-Billabong.ttf' rel='stylesheet' type='text/css'>
 
-    <!-- Bootstrap -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/ead5178642.js" crossorigin="anonymous"></script>
+
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
 </head>
+
 <body>
-    <nav class="navbar navbar-expand-lg">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">Michelle</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon "></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav mr-auto">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">About</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Contact</a>
-              </li>
-            </ul>
-          </div>
+  <div class="nav-top">
+    <nav class="navbar bg-body-tertiary border-bottom p-0">
+      <div class="container-fluid">
+        <a class="a-navb-logo-top mt-2 ms-2" href="#">Michelle</a>    
+      </div>
+    </nav>  
+  </div>
+  <aside class="shadow-sm">
+    <ul>
+      <li class="li-navb-logo"><img src="img/logo.png" alt="" width="60" class="img_logo"><a class="a-navb-logo ms-3" href="#">Michelle</a></li>
+      <li class="li-navb"><button class="btn-navb" id="btn-home" href="#"><i class="fa-solid fa-house me-2 icon"
+            id="fa-house"></i><span class="text">Home</span></button></li>
+      <li class="li-navb"><button class="btn-navb" id="btn-skills" href="#"><i class="fa-solid fa-lightbulb me-2 icon"
+            id="fa-skills"></i><span class="text">Skills</span></button></li>
+      <li class="li-navb"><button class="btn-navb" id="btn-projects" href="#"><i
+            class="fa-solid fa-folder-open me-2 icon" id="fa-projects"></i><span class="text">Projects</span></button>
+      </li>
+      <li class="li-navb"><button class="btn-navb" id="btn-profile" href="#"><i class="fa-solid fa-user me-2 icon"
+            id="fa-profile"></i><span class="text">Profile</span></button></li>
+      <li class="li-navb"><button class="btn-navb" id="btn-aspect" href="#"><i class="fa-solid fa-moon me-2 icon"
+            id="fa-aspect"></i><span class="text">Aspect</span></button></li>
+    </ul>
+  </aside>
+
+  <div class="container">
+    <div class="main-profile p-3">
+      <div class="profile mt-5">
+        <div class="p-2">
+          <a href="#"><img src="img/profile.png" alt="me" width="60"></a> 
         </div>
-    </nav>
+        <div class="p-2">
+          <a class="user"><b>michelleprado_</b></a> <br>
+          <a class="name">Michelle Nallely Prado Bran</a>  
+        </div>
+      </div>
+    </div>
 
-    <section id="principal">
-        <div class="container">
-            <div class="row abs-center">
-                <div class="col-lg-6 principal-text1" >
-                    <img src="img/compu2.png" alt="" class="img-princ">
-                </div>
-            
-                <div class="col-lg-6 principal-text2">
-                    <h1 class="name stagger">HI, MY NAME IS MICHELLE</h1>
-                    <h1 class="main stagger">I make apps.</h1>
-                    <h1 class="description stagger">I'm a <strong>developer</strong> living in Managua, Nicaragua. <br>I design & build user interfaces, and I love what I do.</h1>
-                </div>    
-            </div>    
-        </div>      
-    </section>
-
-    <section id="about">
-      <div class="text-about">
-        <h3 class="txt-main">Nice to meet you, these are my skills!</h3>
+    <div class="main pt-4">
+      <div class="stories border">
+          <h1>hola</h1>
       </div>
 
-      <div class="habilidades">
-        <div class="row row-hab">
-          <div class="col-md-6 hab hab-1">  
-            <img src="img/frontend.png" alt="" srcset="" width="80">
-            <p class="title-hab">Frontend Developer</p>
-            <p>I like to code things from scratch, and enjoy bringing ideas to life in the browser.</p>
-            <p class="title-lang">Languages I speak:</p>
-            <ul style="list-style: none; padding-left: 0px;">
-              <li>JavaScript</li>
-            </ul>
-            <br>
-            <p class="title-lang">Dev Tools:</p>
-            <ul style="list-style: none; padding-left: 0px;">
-              <li>Html</li>
-              <li>CSS</li>
-              <li>Bootstrap</li>
-              <li>JQuery</li>
-            </ul>
+      <div class="pics">
+        <div class="card text-center">
+          <div class="card-header">
+            Featured
           </div>
-          <div class="col-md-6 hab hab-2">  
-            <img src="img/backend.png" alt="" srcset="" width="80">
-            <p class="title-hab">Backend Developer</p>
-            <p >I like to code things from scratch, and enjoy bringing ideas to life in the browser.</p>
-            <p class="title-lang">Languages I speak:</p>
-            <p>C#</p>
-            <p class="title-lang">Dev Tools:</p>
-            <ul style="list-style: none; padding-left: 0px;">
-              <li>Html</li>
-              <li>CSS</li>
-              <li>Bootstrap</li>
-              <li>JQuery</li>
-            </ul>
-
+          <div class="card-body">
+            <h5 class="card-title">Special title treatment</h5>
+            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+          <div class="card-footer text-muted">
+            2 days ago
           </div>
         </div>
       </div>
-    </section>
+    </div>
+    
 
-    <!-- SCRIPTS -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
-    <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/gsap-latest-beta.min.js"></script>
-    <script src="index.js"></script>
-  </body>
+  </div>
+
+  <!-- SCRIPTS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+    crossorigin="anonymous"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/gsap-latest-beta.min.js"></script>
+  <script src="index.js"></script>
+</body>
+
 </html>
